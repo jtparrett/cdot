@@ -1,1 +1,8 @@
-<h1>hello</h1>
+<?php 
+$this->inc('includes/doc_head.php');
+$this->inc('includes/banner.php');
+?>
+
+<?php 
+$this->inc('includes/doc_foot.php');
+?>
