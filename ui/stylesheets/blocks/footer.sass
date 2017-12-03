@@ -11,6 +11,21 @@
     z-index: -1
     background: $black
     width: 100%
+    overflow: hidden
+
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      transform: translateY(-50%)
+      width: 330 * (100vw / 1440)
+      height: 660 * (100vw / 1440)
+      border: 2px solid $dodger
+      border-left: 0
+      border-radius: 0 800px 800px 0
+      z-index: 1
 
     img
       display: block

@@ -6,15 +6,14 @@ $this->inc('includes/doc_head.php');
   <section class="section">
     <div class="wrapper">
       <div class="grid grid--3-col">
-        <div>
-          <article class="card">
-            <img src="http://picsum.photos/378/500?image=973" alt="" class="card__image" />
-            <header class="card__header">
-              <span class="tag">Guide</span>
-              <h1 class="card__title">Training plan headline</h1>
-              <p class="card__copy">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est. Quis dictum purus, sit amet porttitor est.</p>
-            </header>
-          </article>
+        <div class="grid__center">
+          <blockquote class="quote quote--dark quote--large">
+            <div class="quote__image">
+              <img src="http://picsum.photos/130/130?image=973" alt="" />    
+            </div>
+            <cite class="quote__cite">Name Here</cite>
+            <p class="quote__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non dignissim metus. Sed at eros eros. Etiam sed vehicula nisl, sed finibus dui. Cras consequat diam a molestie tristique. Curabitur nibh enim, tempus id ante at, interdum gravida augue.</p>
+          </blockquote>
         </div>
 
         <div>

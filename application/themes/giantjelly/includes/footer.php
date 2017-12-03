@@ -8,6 +8,9 @@
     <div class="grid grid--3-col">
       <div>
         <blockquote class="quote">
+          <div class="quote__image">
+            <img src="http://picsum.photos/130/130?image=973" alt="" />    
+          </div>
           <cite class="quote__cite">Bradley Hunter</cite>
           <p class="quote__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non dignissim metus. Sed at eros eros. Etiam sed vehicula nisl, sed finibus dui.</p>
         </blockquote>
@@ -15,6 +18,9 @@
 
       <div>
         <blockquote class="quote">
+          <div class="quote__image">
+            <img src="http://picsum.photos/130/130?image=973" alt="" />    
+          </div>
           <cite class="quote__cite">Bradley Hunter</cite>
           <p class="quote__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non dignissim metus. Sed at eros eros. Etiam sed vehicula nisl, sed finibus dui.</p>
         </blockquote>
@@ -22,6 +28,9 @@
 
       <div>
         <blockquote class="quote">
+          <div class="quote__image">
+            <img src="http://picsum.photos/130/130?image=973" alt="" />    
+          </div>
           <cite class="quote__cite">Bradley Hunter</cite>
           <p class="quote__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non dignissim metus. Sed at eros eros. Etiam sed vehicula nisl, sed finibus dui.</p>
         </blockquote>
