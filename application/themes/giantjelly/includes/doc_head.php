@@ -9,3 +9,7 @@
 </head>
 <body>
   <div class="page">
+    <?php 
+      $this->inc('includes/header.php');
+      $this->inc('includes/banner.php');
+    ?>

@@ -1,0 +1,30 @@
+.card
+  position: relative
+  background: $black
+
+  .tag
+    margin-bottom: 10px
+
+  &__image
+    display: block
+    width: 100%
+    opacity: .4
+
+  &__header
+    bottom: 0
+    box-sizing: border-box
+    left: 0
+    padding: 30px
+    position: absolute
+    width: 100%
+
+  &__title
+    +ext(copy)
+    color: $white
+    font-size: 32px
+    padding-bottom: 10px
+
+  &__copy
+    +ext(copy) 
+    color: $white
+    font-size: 14px
