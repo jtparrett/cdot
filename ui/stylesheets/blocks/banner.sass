@@ -1,6 +1,22 @@
 .banner
+  position: relative
   background: $shark
   height: 780 * (100vw / 1440)
+  display: flex
+  align-items: center
+  z-index: 1
+  overflow: hidden
+
+  > *
+    flex: none
+
+  &__image
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 995 * (100vw / 1440)
+    z-index: -1
 
   &__inner
     width: 420px

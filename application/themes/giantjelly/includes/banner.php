@@ -1,4 +1,6 @@
 <section role="banner" class="banner">
+  <img src="http://picsum.photos/1400/788?image=973" class="banner__image" />
+
   <div class="wrapper">
     <div class="banner__inner">
       <h1 class="banner__title">
