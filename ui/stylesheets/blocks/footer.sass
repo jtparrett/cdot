@@ -1,7 +1,6 @@
 .footer
   position: relative
   padding: 40px 0
-  background: $shark
   overflow: visible
   z-index: -1
 
@@ -9,9 +8,14 @@
     position: absolute
     bottom: 0
     left: 0
-    display: block
-    width: 100%
     z-index: -1
+    background: $black
+    width: 100%
+
+    img
+      display: block
+      width: 100%
+      opacity: .4
 
   &__title
     +ext(copy)
@@ -30,3 +34,11 @@
     color: $white
     opacity: .6
     text-align: center
+
+  @media all and (max-width: 767px)
+    &__image
+      height: 100%
+
+      img
+        height: 100%
+        object-fit: cover

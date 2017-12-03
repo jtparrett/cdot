@@ -1,5 +1,5 @@
 .section
-  margin: 100px 0 85px
+  margin: 100px 0 55px
   overflow: hidden
   background: $white
 
@@ -14,3 +14,10 @@
     &::after
       content: '.'
       color: $dodger
+
+  @media all and (max-width: 767px)
+    margin: 40px 0 0
+
+  @media all and (max-width: 567px)
+    &__title
+      text-align: center

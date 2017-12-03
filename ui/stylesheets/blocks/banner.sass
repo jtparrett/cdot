@@ -38,6 +38,7 @@
     transform: translate(-50%, -50%)
     width: 995 * (100vw / 1440)
     z-index: -1
+    opacity: .4
 
   &__inner
     position: relative
@@ -63,3 +64,9 @@
     +ext(copy)
     color: $copy
     font-size: 18px
+
+  @media all and (max-width: 767px)
+    height: 780 * (100vw / 768)
+
+    &__title
+      font-size: 32px
