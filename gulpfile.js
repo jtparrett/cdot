@@ -13,5 +13,5 @@ gulp.task('styles', function(){
 })
 
 gulp.task('default', function(){
-  gulp.watch('ui/stylesheets/*.{sass,scss,css}', ['styles'])
+  gulp.watch('ui/stylesheets/**/**.{sass,scss,css}', ['styles'])
 })
