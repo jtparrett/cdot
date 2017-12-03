@@ -5,7 +5,28 @@
   display: flex
   align-items: center
   z-index: 1
-  overflow: hidden
+
+  &::before, &::after
+    content: ''
+    display: block
+    position: absolute
+    top: 100%
+    transform: translateY(-50%)
+
+  &::before
+    left: 0
+    width: 120 * (100vw / 1440)
+    height: 240 * (100vw / 1440)
+    background: $dodger
+    border-radius: 0 400px 400px 0
+
+  &::after
+    right: 0
+    width: 330 * (100vw / 1440)
+    height: 660 * (100vw / 1440)
+    border: 2px solid $dodger
+    border-right: 0
+    border-radius: 800px 0 0 800px
 
   > *
     flex: none
