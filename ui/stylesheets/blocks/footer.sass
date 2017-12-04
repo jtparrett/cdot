@@ -13,10 +13,13 @@
     width: 100%
     overflow: hidden
 
-    &::before
+    &::before, &::after
       content: ''
       display: block
       position: absolute
+      z-index: 1
+
+    &::before
       top: 0
       left: 0
       transform: translateY(-50%)
@@ -25,23 +28,19 @@
       border: 2px solid $dodger
       border-left: 0
       border-radius: 0 800px 800px 0
-      z-index: 1
+
+    &::after
+      bottom: 0
+      right: 0
+      width: 200 * (100vw / 1440)
+      height: 200 * (100vw / 1440)
+      background: $dodger
+      border-radius: 800px 0 0 0
 
     img
       display: block
       width: 100%
       opacity: .4
-
-  &__title
-    +ext(copy)
-    font-size: 52px
-    color: $white
-    padding-bottom: 30px
-    text-align: center
-
-    &::after
-      content: '.'
-      color: $dodger
 
   &__copy
     +ext(copy)

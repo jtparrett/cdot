@@ -1,5 +1,10 @@
 <section role="banner" class="banner">
-  <img src="http://picsum.photos/1400/788?image=973" class="banner__image" />
+  <div class="banner__image">
+    <img src="http://picsum.photos/1400/788?image=973" />
+    <div class="banner__actions">
+      <a href="#" class="button">Online Coaching</a>
+    </div>
+  </div>
 
   <div class="wrapper">
     <div class="banner__inner">

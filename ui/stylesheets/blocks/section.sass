@@ -15,8 +15,30 @@
       content: '.'
       color: $dodger
 
+    &--large
+      font-size: 52px
+      text-align: center
+
+  &--light
+    padding-top: 100px
+    margin-top: 0
+    background: transparent
+
+  &--light &
+    &__title
+      color: $white
+
+  @media all and (max-width: 1023px)
+    &--light
+      background: $shark
+
   @media all and (max-width: 767px)
-    margin: 40px 0 0
+    margin: 10px 0 0
+    padding-top: 30px
+
+    &__title
+      &--large
+        font-size: 26px
 
   @media all and (max-width: 567px)
     &__title

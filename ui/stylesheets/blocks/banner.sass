@@ -38,13 +38,25 @@
     transform: translate(-50%, -50%)
     width: 995 * (100vw / 1440)
     z-index: -1
-    opacity: .4
+
+    img
+      display: block
+      width: 100%
+      opacity: .4
 
   &__inner
     position: relative
     width: 420px
     max-width: 100%
     z-index: 1
+
+  &__actions
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100%
+    text-align: center
+    transform: translateY(-50%)
 
   &__title
     +ext(copy)
@@ -62,11 +74,22 @@
 
   &__copy
     +ext(copy)
-    color: $copy
+    color: $white
+    opacity: .8
     font-size: 18px
 
+  @media all and (max-width: 1023px)
+    &__image
+      height: 100%
+      width: 100%
+
+      img
+        height: 100%
+        object-fit: cover
+
   @media all and (max-width: 767px)
-    height: 780 * (100vw / 768)
+    height: auto
+    padding: 60px 0
 
     &__title
-      font-size: 32px
+      font-size: 30px

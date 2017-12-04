@@ -1,6 +1,10 @@
 .wysiwyg
   padding-bottom: 20px
 
+  &--slim
+    width: 790px
+    max-width: 100%
+
   h1, h2, h3, h4
     +ext(copy)
     padding-bottom: 30px
@@ -19,7 +23,11 @@
 
   p
     +ext(copy)
+    color: $copy
     padding-bottom: 10px
 
     big
       font-size: 22px
+
+    strong
+      font-weight: 700
