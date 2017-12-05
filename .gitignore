@@ -1,2 +1,6 @@
 application/files/
 application/themes/giantjelly/app/
+
+.idea
+
+application/config/database.php
