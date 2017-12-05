@@ -1,0 +1,48 @@
+.menu
+  position: absolute
+  background: $white
+  top: 100%
+  right: 0
+  padding: 10px 0
+  width: 320px
+  max-width: 100%
+  box-sizing: border-box
+  box-shadow: 0 10px 5px rgba($black, .1)
+  visibility: hidden
+  transform: scale(0)
+  transform-origin: 85% top
+  transition: transform .3s $easing, visibility .3s $easing
+
+  &--active, &:target
+    visibility: visible
+    transform: none
+
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0
+    right: 0
+    width: 60px
+    height: 60px
+    border: 2px solid $dodger
+    border-bottom: 0
+    border-right: 0
+    border-radius: 300px 0 0 0
+
+  &__link
+    +ext(copy)
+    color: $black
+    display: block
+    text-decoration: none
+    text-transform: uppercase
+    letter-spacing: 1px
+    padding: 5px 30px
+    font-weight: 600
+    font-size: 14px
+
+    &--active
+      box-shadow: inset 4px 0 0 $dodger
+
+    &:hover
+      background: $dodger
+      color: $white
