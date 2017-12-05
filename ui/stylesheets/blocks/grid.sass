@@ -23,14 +23,18 @@
   &--4-col > *
     width: calc(25% - 30px)
 
+  @media all and (max-width: 1023px)
+    &--3-col > *
+      width: calc(50% - 30px)
+
+      &:last-child
+        display: none
+
   @media all and (max-width: 767px)
     &--2-col > *
       width: calc(100% - 30px)
 
-    &--3-col > *:last-child
-      display: none
-
-    &--3-col > *, &--4-col > *
+    &--4-col > *
       width: calc(50% - 30px)
 
   @media all and (max-width: 567px)
