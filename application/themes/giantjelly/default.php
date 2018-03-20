@@ -8,10 +8,6 @@ $a->display();
 
 <main class="main">
     <section class="section">
-        <?php
-        $a = new Area('area1');
-        $a->display();
-        ?>
         <div class="wrapper">
             <div class="grid grid--3-col">
                 <div class="grid__center">

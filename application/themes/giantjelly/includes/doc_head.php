@@ -2,7 +2,7 @@
 defined('C5_EXECUTE') or die("Access Denied.");
 $p = new Permissions(Page::getCurrentPage()); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-touch" data-element="root">
 <head>
 	<?php View::element('header_required'); ?>
     <meta name="viewport"
