@@ -14,6 +14,4 @@ defined('C5_EXECUTE') or die("Access Denied."); ?>
 <div class="page">
 	<?php
 	$this->inc('includes/header.php');
-	$bannerArea = new Area('banner');
-	$bannerArea->display();
 	?>
