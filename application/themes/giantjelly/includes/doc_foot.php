@@ -1,4 +1,10 @@
-<?php defined('C5_EXECUTE') or die("Access Denied."); ?>
+<?php
+    defined('C5_EXECUTE') or die("Access Denied.");
+    $pagePermissionsFooter = new Permissions(Page::getCurrentPage()); ?>
+
+    <?php if(!$pagePermissionsFooter->canViewToolbar()) : ?>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <?php endif; ?>
   <?php $this->inc('includes/footer.php'); ?>
   <?php Loader::element('footer_required'); ?>
   </div>

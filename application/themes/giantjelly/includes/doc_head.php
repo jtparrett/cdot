@@ -1,6 +1,6 @@
 <?php
-
-defined('C5_EXECUTE') or die("Access Denied."); ?>
+defined('C5_EXECUTE') or die("Access Denied.");
+$p = new Permissions(Page::getCurrentPage()); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +11,7 @@ defined('C5_EXECUTE') or die("Access Denied."); ?>
     <link rel="stylesheet" href="<?php echo $this->getThemePath(); ?>/app/application.css"/>
 </head>
 <body>
-<div class="page">
+<div class="page" <?php echo $c->getPageWrapperClass(); ?>" data-element="page">
 	<?php
 	$this->inc('includes/header.php');
 	?>
