@@ -10,8 +10,8 @@ $p = new Permissions(Page::getCurrentPage()); ?>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $this->getThemePath(); ?>/app/application.css"/>
 </head>
-<body>
-<div class="page" <?php echo $c->getPageWrapperClass(); ?>" data-element="page">
+<body data-element="body">
+<div class="page <?php echo $c->getPageWrapperClass(); ?>" data-element="page">
 	<?php
 	$this->inc('includes/header.php');
 	?>
