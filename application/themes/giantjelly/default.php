@@ -1,11 +1,9 @@
 <?php
 
-use Concrete\Core\Area\Area;
-
 $this->inc('includes/doc_head.php');
 echo 'TEST';
-$bannerArea = new Area('banner');
-$bannerArea->display();
+$a = new Area('banner');
+$a->display();
 ?>
 
 <main class="main">
