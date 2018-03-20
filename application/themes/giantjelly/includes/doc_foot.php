@@ -6,7 +6,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <?php $this->inc('includes/footer.php'); ?>
-  <?php Loader::element('footer_required'); ?>
+  <?php View::element('footer_required'); ?>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

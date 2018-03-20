@@ -4,7 +4,7 @@ $p = new Permissions(Page::getCurrentPage()); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php Loader::element('header_required'); ?>
+	<?php View::element('header_required'); ?>
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i,700,700i" rel="stylesheet">
