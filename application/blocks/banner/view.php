@@ -7,7 +7,6 @@
  */
 
 use Concrete\Core\File\File;
-use Concrete\Package\Croppy\Src\Bridge\Croppy;
 
 if ($image) {
     $imagePath = File::getRelativePathFromID($image);
