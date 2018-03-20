@@ -6,7 +6,7 @@
  * Time: 14:55
  */
 
-namespace Application\Block\ContactCta;
+namespace Application\Block\CtaBanner;
 
 use Concrete\Core\Block\BlockController;
 use Concrete\Core\Legacy\BlockRecord;
