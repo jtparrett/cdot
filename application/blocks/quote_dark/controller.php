@@ -6,7 +6,7 @@
  * Time: 14:55
  */
 
-namespace Application\Block\QuoteLight;
+namespace Application\Block\QuoteDark;
 
 use Concrete\Core\Block\BlockController;
 use Concrete\Core\Legacy\BlockRecord;
