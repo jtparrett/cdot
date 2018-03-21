@@ -16,7 +16,7 @@ if ($image) {
 
 <section role="banner" class="banner">
     <div class="banner__image">
-        <img src="<?= $file ?>" />
+        <img src="<?= $file->getApprovedVersion() ?>" />
         <div class="banner__actions">
             <a href="<?= $link ?>" class="button"><?= $linkText ?></a>
         </div>
