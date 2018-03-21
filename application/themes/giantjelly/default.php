@@ -1,5 +1,7 @@
 <?php
 
+use Concrete\Core\Area\Area;
+
 $this->inc('includes/doc_head.php');
 $a = new Area('banner');
 $a->display();
@@ -10,6 +12,10 @@ $a->display();
         <div class="wrapper">
             <div class="grid grid--3-col">
 
+                <?php
+                    $a = new Area('3 col grid');
+                    $a->display();
+                ?>
 
                 <div>
                     <a href="#">
