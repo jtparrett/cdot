@@ -1,7 +1,12 @@
 <section class="section section--light">
     <div class="wrapper wrapper--slim">
         <header class="section__header">
-            <h1 class="section__title section__title--large">Proven results</h1>
+            <h1 class="section__title section__title--large">
+	            <?php
+	            $a = new Area('footer title');
+	            $a->display();
+	            ?>
+            </h1>
         </header>
 
         <div class="grid grid--3-col">
