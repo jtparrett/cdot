@@ -1,7 +1,6 @@
 <?php
 
 $this->inc('includes/doc_head.php');
-echo 'TEST';
 $a = new Area('banner');
 $a->display();
 ?>

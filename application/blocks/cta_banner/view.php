@@ -18,7 +18,7 @@ if ($image) {
     <div class="banner__image">
         <img src="<?= $file->getRecentVersion()->getRelativePath() ?>" />
         <div class="banner__actions">
-            <a href="<?= $link ?>" class="button"><?= $linkText ?></a>
+            <a href="<?= $link ?>" class="button"><?= $link_text ?></a>
         </div>
     </div>
 
