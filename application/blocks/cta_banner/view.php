@@ -21,14 +21,20 @@ if ($link) {
 <section role="banner" class="banner">
     <div class="banner__image">
         <img src="<?= $file->getRecentVersion()->getRelativePath() ?>" />
-        <div class="banner__actions">
-            <a href="<?= $link ?>" class="button"><?= $link_text ?></a>
-        </div>
+        <?php if($link_text){ ?>
+            <div class="banner__actions">
+                <a href="<?= $link ?>" class="button"><?= $link_text ?></a>
+            </div>
+        <?php } ?>
     </div>
 
     <div class="wrapper">
         <div class="banner__inner">
-            <h1 class="banner__title"><?= $heading ?></h1>
+            <h1 class="banner__title">
+                <?php foreach(explode(' ', $heading) as $word){ ?>
+                    <span><?= $word ?></span>
+                <?php } ?>
+            </h1>
             <p class="banner__copy"><?= $text ?></p>
         </div>
     </div>
