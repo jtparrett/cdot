@@ -9,18 +9,7 @@ $a->display();
     <section class="section">
         <div class="wrapper">
             <div class="grid grid--3-col">
-                <div class="grid__center">
-                    <blockquote class="quote quote--dark quote--large">
-                        <div class="quote__image">
-                            <img src="http://picsum.photos/130/130?image=973" alt=""/>
-                        </div>
-                        <p class="quote__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non
-                            dignissim metus. Sed at eros eros. Etiam sed vehicula nisl, sed finibus dui. Cras consequat
-                            diam a molestie tristique. Curabitur nibh enim, tempus id ante at, interdum gravida
-                            augue.</p>
-                        <cite class="quote__cite">Name Here</cite>
-                    </blockquote>
-                </div>
+
 
                 <div>
                     <a href="#">
