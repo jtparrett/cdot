@@ -85,10 +85,5 @@ class Controller extends BlockController
                 $this->set($key, $value);
             }
         }
-
-        $pageName = strtolower(Page::getCurrentPage()->getCollectionName());
-        if (array_key_exists($pageName, $this->gaTrackedPages)) {
-            $this->set('tracked', $this->gaTrackedPages[$pageName]);
-        }
     }
 }
