@@ -6,7 +6,7 @@
  * Time: 14:55
  */
 
-namespace Application\Block\ProductCtat;
+namespace Application\Block\ProductCta;
 
 use Concrete\Core\Block\BlockController;
 use Concrete\Core\Legacy\BlockRecord;
