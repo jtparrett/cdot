@@ -10,6 +10,7 @@ use Concrete\Core\File\File;
 use Concrete\Core\Application\Service\FileManager;
 
 $al = Core::make('helper/concrete/asset_library');
+$form_page_selector = Loader::helper('form/page_selector');
 $file = $image ? File::getByID($image) : null;
 ?>
 
