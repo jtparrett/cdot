@@ -10,6 +10,7 @@ use Concrete\Core\File\File;
 use Concrete\Core\Application\Service\FileManager;
 
 $al = Core::make('helper/concrete/asset_library');
+$form_page_selector = Loader::helper('form/page_selector');
 $file = $image ? File::getByID($image) : null;
 ?>
 
@@ -21,9 +22,21 @@ $file = $image ? File::getByID($image) : null;
         ?>
     </div>
     <div class="form-group">
+		<?php
+		echo $form->label('price', t('Price'));
+		echo $form->text('price', $price);
+		?>
+    </div>
+    <div class="form-group">
+		<?php
+		echo $form->label('tag', t('Tag'));
+		echo $form->text('tag', $tag);
+		?>
+    </div>
+    <div class="form-group">
         <?php
-        echo $form->label('name', t('Name'));
-        echo $form->text('name', $name);
+        echo $form->label('heading', t('Heading'));
+        echo $form->text('heading', $heading);
         ?>
     </div>
     <div class="form-group">
@@ -31,5 +44,11 @@ $file = $image ? File::getByID($image) : null;
             echo $form->label('text', t('Text'));
             echo $form->text('text', $text);
         ?>
+    </div>
+    <div class="form-group">
+		<?php
+		echo $form->label('link', t('Link'));
+		echo $form_page_selector->selectPage('link', $link);
+		?>
     </div>
 </fieldset>

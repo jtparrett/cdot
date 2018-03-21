@@ -23,7 +23,7 @@ $file = $image ? File::getByID($image) : null;
     <div class="form-group">
         <?php
         echo $form->label('name', t('Name'));
-        echo $form->text('name', $heading);
+        echo $form->text('name', $name);
         ?>
     </div>
     <div class="form-group">

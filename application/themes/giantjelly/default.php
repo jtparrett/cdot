@@ -17,35 +17,6 @@ $a->display();
                     $a->display();
                 ?>
 
-                <div>
-                    <a href="#">
-                        <article class="card">
-                            <img src="http://picsum.photos/378/500?image=973" alt="" class="card__image"/>
-                            <span class="price">&pound;25</span>
-                            <header class="card__header">
-                                <span class="tag">Guide</span>
-                                <h1 class="card__title">Training plan headline</h1>
-                                <p class="card__copy">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus,
-                                    sit amet porttitor est. Quis dictum purus, sit amet porttitor est.</p>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-
-                <div>
-                    <a href="#">
-                        <article class="card">
-                            <img src="http://picsum.photos/378/500?image=973" alt="" class="card__image"/>
-                            <span class="price">&pound;25</span>
-                            <header class="card__header">
-                                <span class="tag">Guide</span>
-                                <h1 class="card__title">Training plan headline</h1>
-                                <p class="card__copy">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus,
-                                    sit amet porttitor est. Quis dictum purus, sit amet porttitor est.</p>
-                            </header>
-                        </article>
-                    </a>
-                </div>
             </div>
         </div>
     </section>
