@@ -19,7 +19,7 @@ if ($image) {
         <div class="quote__image">
             <img src="<?= $file->getRecentVersion()->getRelativePath() ?>" alt="" />
         </div>
-        <cite class="quote__cite"><?= $name ?>/cite>
+        <cite class="quote__cite"><?= $name ?></cite>
         <p class="quote__copy"><?= $text ?></p>
     </blockquote>
 </div>
