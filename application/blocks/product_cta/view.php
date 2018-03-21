@@ -12,6 +12,10 @@ if ($image) {
     $imagePath = File::getRelativePathFromID($image);
     $file = File::getByID($image);
 }
+
+if ($link) {
+	$link = \Page::getById($link)->getCollectionLink();
+}
 ?>
 <div>
     <a href="<?= $link ?>">
